@@ -67,7 +67,12 @@ INSTALLED_APPS = [
     "name",
 ]
 
+#set-up static folder
+STATIC_URL = 'static/'
 
+STATICFILES_DIRS = [
+    BASE_DIR / "static",
+]
 ```
 
 ## ⚙️ Run migrations
